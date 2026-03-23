@@ -1,6 +1,6 @@
 # rnaseq_genice
 
-[rnaseq-pipeline.pptx](https://github.com/user-attachments/files/26190391/rnaseq-pipeline.pptx)
+![rna-pipeline](https://github.com/user-attachments/assets/5c3a737b-93d5-4476-9798-0a391ab43c54)
 
 **Quality Control**
 Reads were trimmed using Trimmomatic with TruSeq3-PE adapters, a 4-base sliding window cut when average quality drops below 20, and removing leading and trailing bases with quality scores below 3.
