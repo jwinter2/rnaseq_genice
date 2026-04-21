@@ -15,3 +15,9 @@ Reads were deduplicated with bbmap tools clumpify with the flag —optical=f and
 Deduplicated reads are being assembled using rnaSPAdes, as single assemblies and the same grouping of co-assemblies as the metagenomes. Once both are run, they will be compared to determine the best method for assembly.
 
 Reads will also go through another pipeline starting at this step for eukaryotes. This will result in two versions of the metatranscriptomes, one using a standard pipeline and one designed for maximizing eukaryotic data.
+
+**Mapping**
+
+Cleaned reads were mapped to both the single assemblies and co-assemblies using minimap2 for paired end reads. ~90% of reads mapped to the assemblies. Cleaned reads will also be mapped to the metagenome assemblies using the same mapping tool decided for the metatranscriptome assemblies.
+
+Reads will also go through another pipeline starting at this step for eukaryotes. This will result in two versions of the metatranscriptomes, one using a standard pipeline and one designed for maximizing eukaryotic data.
